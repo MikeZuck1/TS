@@ -9,3 +9,5 @@ console.log(secondarr);
 
 let thirdarr: Array<number> = [1, 2, 3, 4, 5];
 console.log(thirdarr);
+
+ 
