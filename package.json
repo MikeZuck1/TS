@@ -16,5 +16,8 @@
     "url": "https://github.com/MikeZuck1/TS/issues"
   },
   "homepage": "https://github.com/MikeZuck1/TS#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "tsx": "^4.22.3"
+  }
 }

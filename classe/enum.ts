@@ -5,7 +5,7 @@ enum ADMIN_ROLE {
   MANAGE_ORDERS,
   MANAGE_CONTENT,
   MANAGE_SETTINGS,
-  CONFIGURE_SYSTEM
+  CONFIGURE_SYSTEM,
 }
 
 console.log(ADMIN_ROLE.READ_ONLY); // Output: 10
@@ -16,7 +16,3 @@ console.log(ADMIN_ROLE.MANAGE_CONTENT); // Output: 14
 console.log(ADMIN_ROLE.MANAGE_SETTINGS); // Output: 15
 console.log(ADMIN_ROLE.CONFIGURE_SYSTEM); // Output: 16
 // function getAdminRole(role: ADMIN_ROLE): string {};
-
-interface Admin {};
-
-function adm(admin: Admin): void {};

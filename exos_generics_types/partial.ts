@@ -42,3 +42,12 @@ function updateProduct(product: Product, update: Partial<Product>) {
 const product: Product = { id: 1, name: "Laptop", price: 1000 };
 const updatedProduct = updateProduct(product, { price: 900 });
 console.log(updatedProduct);
+
+type Profile = {
+  firstName: string;
+  lastName: string;
+};
+
+let userProfile: Partial<Profile> = {
+  firstName: "John",
+};
